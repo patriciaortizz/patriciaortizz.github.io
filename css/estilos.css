@@ -1,0 +1,175 @@
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+header{
+	padding: 20px 0;
+	background-color: black;
+}
+
+header .contenedor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a{
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: orangered;
+}
+
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-titulo-controles h3 {
+	color: white;
+	font-size: 30px;
+}
+
+
+.estrenos {
+	margin-bottom: 70px;
+}
+
+.estrenos .contenedor-principal{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.estrenos .contenedor-principal .flecha-izquierda,
+.estrenos .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: white;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.estrenos .contenedor-principal .flecha-izquierda:hover,
+.estrenos .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+.estrenos .contenedor-principal .flecha-izquierda{
+	left: 0;
+}
+
+.estrenos .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+
+.estrenos .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.estrenos .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.estrenos .contenedor-carousel .carousel .peliculas {
+	min-width: 30%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.estrenos .contenedor-carousel .carousel .peliculas img{
+	width: 100%;
+	vertical-align: top;
+}
+
+
+
+/*inicio*/
+
+#parr_1 {
+	text-align: center;
+	font-size: 35px;
+	color:orangered ;
+	font-style: italic;
+	padding: 10px;
+}
+label {
+	
+	border-radius: 5px;
+	color: white;
+	font-size: 22px;
+}
+.formulario {
+	text-align: center;
+	padding: 30px;
+}
+
+.botones {
+	padding: 20px;
+}
+
+.btn-primary {
+
+	
+	background: orangered;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 20px;
+	
+	
+}
+
+.btn-seg {
+	
+	background: orangered;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+	
+	
+}
+
+
+/*peliculas*/
+.contenedor-peliculas {
+	display: flex;
+	color: white;
+	text-align: center;
+}
+.genero h2 {
+	color: white;
+}
+
+/*series*/
+.contenedor-series {
+	display: flex;
+	color: white;
+	text-align: center;
+}
+
+/*tablas*/
+
+
+
